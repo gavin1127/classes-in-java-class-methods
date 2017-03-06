@@ -11,11 +11,14 @@
  * Follow the instructions in the to-do items listed below.
  */
 public class LightSwitch {
+    boolean on;
 
     // todo: add a property named "on" that indicates if the light switch is on or off. Default this property to false.
+    public void toggle() {
 
-    // todo: create a public method named toggle() that toggles the switch on and off. IE: if it's on, turn it off. If it's off, turn it on.
-
+        // todo: create a public method named toggle() that toggles the switch on and off. IE: if it's on, turn it off. If it's off, turn it on.
+        this.on = !this.on;
         // todo: the body of the toggle() method should set the on property to the opposite of its current value.
 
+    }
 }

@@ -7,13 +7,13 @@
 public class Main {
 
     public static void main(String[] args) {
-
+    LightSwitch lightSwitch= new LightSwitch();
         // todo: create a new instance of the LightSwitch and store it in a variable named lightSwitch.
-
+        System.out.println("The light switch is on: "+ lightSwitch.on);
         // todo: print the state of the light switch. This should read "The light switch is on: true" or "The light switch is on: false" depending on the state of the lightSwitch.
-
+        lightSwitch.toggle();
         // todo: toggle the state of the light switch
-
+        System.out.println("The light switch is on: "+ lightSwitch.on);
         // todo: print the state of the light switch again. This should read "The light switch is on: true" or "The light switch is on: false" depending on the state of the lightSwitch.
 
     }
